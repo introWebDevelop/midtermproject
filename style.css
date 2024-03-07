@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #665748;
+	font-family: "Play", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: goldenrod;
+}
+
+p {
+	font-family: "Play", sans-serif;
+	font-size: 30px;
+}
+
+ul.list {
+	font-family: "Kings", cursive;
+	font-size: 30px;
+	list-style-type: square;
+}
+
+
+.image {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color : goldenrod; 
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.header {
+	font-family: "Kings", cursive;
+	font-size: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.ad {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+.ad2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	align-items: baseline;
+}
+.ad3 { 
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	align-items: baseline;
+ }
+
+.menu {
+	font-family: "Kings", cursive;
+	font-size: 50px;
+	border: 2px solid gold;
+	border-left: 0;
+	border-right: 0;
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+}
+
+.navLink {
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.mainContainer {
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 30px;
+}
+
+.content {
+	font-weight: lighter;
+}
+
+.subTitle {
+	font-family: "Kings", cursive;
+	font-size: 40px;
+	text-decoration: underline;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	color: #FFD700;
+	text-decoration: underline;
+}
+
